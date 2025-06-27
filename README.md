@@ -39,6 +39,3 @@ This project demonstrates a minimal implementation of **linear regression using 
 pip install torch matplotlib imageio pillow
 
 
-## 📊 Training Progress
-
-![Training Scatter Plot](training_scatter.gif)
