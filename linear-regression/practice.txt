@@ -1,0 +1,8 @@
+for epoch in range(epochs):
+model_1.train()
+y_pred=model_1(x_train)
+loss=loss_fn(y_pred,y_train)
+opimizer.zero_grad()
+loss.backward()
+opimizer.step()
+model_1.eval()
